@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>ExosPoo</title>
+    <meta name="description" content="ExosPoo" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico">
+    <style>
+    h1 {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 3px solid black;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even), tr th {
+        background-color: #dddddd;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Liste de clients</h1>
+    <select name="list-clients" id="list-clients">
+        <option value="Nom">Nom</option>
+        <option value="Prenom">Prenom</option>
+        <option value="Age">Age</option>
+    </select>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Age</th>
+        </tr>
+        <tbody id="affichage">
+            
+        </tbody>
+    </table>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

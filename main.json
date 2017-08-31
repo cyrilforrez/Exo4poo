@@ -1,0 +1,23 @@
+{
+    "clients": [
+    {
+        "nom": "forrez",
+        "prenom": "cyril",
+        "age": "29"
+    },
+    {
+        "nom": "martin",
+        "prenom": "goerge",
+        "age": "40"
+    },
+    {
+        "nom": "dupont",
+        "prenom": "jean",
+        "age": "20"
+    },
+	{
+		"nom": "fauconnier",
+		"prenom": "gregoire",
+		"age": "35"
+	}]
+}
